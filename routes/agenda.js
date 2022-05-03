@@ -5,6 +5,7 @@ const agendaCntrlObj = new agendaCntrl();
 
 /* GET home page. */
 router.get('/', agendaCntrlObj.callDeleteOldUsers);
+// router.get('/failed-jobs', agendaCntrlObj.callProcessFailedJobs);
   
 module.exports = router;
   
